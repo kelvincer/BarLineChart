@@ -60,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
         });
         xAxis.setTextSize(12);
         xAxis.setLabelRotationAngle(270f);
+        xAxis.setLabelCount(10);
 
         CombinedData data = new CombinedData();
 
